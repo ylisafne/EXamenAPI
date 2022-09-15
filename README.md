@@ -6,24 +6,25 @@
 
 ## Solucion
 * Creamos la Base de datos con el nombre "Examen"
-* Ejecutar el Script del archivo [Script.sql](./SqlScript.sql)
+* Ejecutar el Script del archivo [Script.sql](https://github.com/ylisafne/EXamenAPI/blob/master/SqlScript.sql)
 
 ## Requerimiento
 2. Crear un Api en .Net (C#) de tipo GET (Listar) y POST (Registrar) consumiendo la tabla Persona creada anteriormente.
 
 ## Solucion
 * Descargar el repositorio [EXamenAPI](https://github.com/ylisafne/EXamenAPI) desde [GitHub](https://github.com/ylisafne/EXamenAPI)
-* Si es necesario editar la cadena de conecion del archivo  [AppContext](./EXamenAPI/Models/APPContext.cs) ubicado en "EXamenAPI/Models/APPContext.cs"
+* Si es necesario editar la cadena de conecion del archivo  [AppContext](https://github.com/ylisafne/EXamenAPI/blob/master/EXamenAPI/Models/APPContext.cs) ubicado en "EXamenAPI/Models/APPContext.cs"
 * Ejecuta el servicio API desde Visual Studio (.net core 6)
 
 ## Requerimiento:
 3. Consumir el Api creado en un nuevo proyecto en Web, puede usar bootstrap o alguna hoja de estilo personal. Mostrar mensaje indicando que se registro correctamente y luego listar.
 
 ## Solucion
+Markup
 * Requisitos para ejecutar angular
-  _ Node.JS
-  _ Angular CLI
-  _ Ejecutar API [EXamenAPI](https://github.com/ylisafne/EXamenAPI)
+  * Node.JS
+  * Angular CLI
+  * Ejecutar API [EXamenAPI](https://github.com/ylisafne/EXamenAPI)
 * Descargar el repositorio [ExamenFE](https://github.com/ylisafne/ExamenFE) desde desde [GitHub](https://github.com/ylisafne/ExamenFE)
 * Abre una ventana de cmd y cambia el directorio a la carpeta del Proyecto ExamenFE con el comando cd
 ```
@@ -35,4 +36,4 @@ cd ng serve --o
 ```
 Video Explicando el Funcionamiento [Video](https://youtu.be/vXKIDJIs5qI)
 
-[Mas Infomacion sobre el Front-End ](https://github.com/ylisafne/ExamenFE/blob/master/angular.json)
+[Mas Infomacion sobre el Front-End ](https://github.com/ylisafne/ExamenFE/blob/master/INFO.md)
