@@ -35,7 +35,8 @@ namespace EXamenAPI.Controllers
                 //    db.SaveChanges();
                 //    return Ok();
                 //}
-                return Ok(res);
+                if(res == 1)
+                    return Ok("se registro correctamente");
 
             }
             return Ok();
@@ -45,7 +46,8 @@ namespace EXamenAPI.Controllers
             using (Models.APPContext db = new Models.APPContext())
             {
                 var res = db.Database.ExecuteSqlRaw($"SP_Persona_Del {id}");
-                return Ok(res);
+                if (res == 1)
+                    return Ok("se registro correctamente");
             }
             return Ok();
         }
