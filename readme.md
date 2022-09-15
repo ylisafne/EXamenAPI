@@ -16,7 +16,7 @@
 * Si es necesario editar la cadena de conecion del archivo  [AppContext](./EXamenAPI/Models/APPContext.cs) ubicado en "EXamenAPI/Models/APPContext.cs"
 * Ejecuta el servicio API desde Visual Studio (.net core 6)
 
-# Requerimiento:
+## Requerimiento:
 3. Consumir el Api creado en un nuevo proyecto en Web, puede usar bootstrap o alguna hoja de estilo personal. Mostrar mensaje indicando que se registro correctamente y luego listar.
 
 ## Solucion
