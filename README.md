@@ -34,6 +34,6 @@ cd (Ruta de Archivo)/ExamenFE
 ```
 cd ng serve --o
 ```
-Video Explicando el Funcionamiento [Video](https://youtu.be/vXKIDJIs5qI)
+Video Explicando el Funcionamiento [Link](https://youtu.be/vXKIDJIs5qI)
 
 [Mas Infomacion sobre el Front-End ](https://github.com/ylisafne/ExamenFE/blob/master/INFO.md)
