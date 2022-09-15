@@ -29,11 +29,10 @@
 ```
 cd (Ruta de Archivo)/ExamenFE
 ```
-* Ejecuta el API en Visual Studio
 * Para ejecutar el Front End ejecuta el Siguiente comando
 ```
 cd ng serve --o
 ```
 Video Explicando el Funcionamiento [Video](https://youtu.be/vXKIDJIs5qI)
 
-
+[Mas Infomacion sobre el Front-End ](https://github.com/ylisafne/ExamenFE/blob/master/angular.json)
